@@ -687,7 +687,16 @@ if __name__ == '__main__':
         print('no.',n, 'file:', file,)
         roi = roi_list[n]
         tilt_data = hs.load(DIR_TILTS+file+'.hspy')
+        # if n == 0:
+        #     s_shifts = tilt_data.get_direct_beam_position(
+        #         method="interpolate", 
+        #         half_square_width=30,
+        #         sigma=1.5, 
+        #         upsample_factor=2, 
+        #         kind="nearest"
+        #         )
 
+        # tilt_data.center_direct_beam(method="center_of_mass", mask=(cx,cy,r),threshold=750, inplace=False)
         tilt_data.center_direct_beam(
                 method="interpolate", 
                 half_square_width=30,
@@ -697,6 +706,7 @@ if __name__ == '__main__':
                 inplace=False,
                 )
 
+        # tilt_data.center_direct_beam(shifts=s_shifts)
         tilt_roi_av = np.average(roi(tilt_data).data,axis=(0,1))
         tilt_series_av.append(tilt_roi_av)
         # Free memory
