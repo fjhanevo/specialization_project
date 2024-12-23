@@ -99,7 +99,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi3 = hs.roi.RectangularROI(left=26, top=1, right=32, bottom=6)
+    roi3 = hs.roi.RectangularROI(left=25, top=1, right=31, bottom=6)
     roi3.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi4 = hs.roi.RectangularROI(left=4, top=25, right=10, bottom=30)
+    roi4 = hs.roi.RectangularROI(left=2, top=23, right=8, bottom=28)
     roi4.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi7 = hs.roi.RectangularROI(left=14, top=15, right=20, bottom=20)
+    roi7 = hs.roi.RectangularROI(left=14, top=10, right=20, bottom=15)
     roi7.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -149,7 +149,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi8 = hs.roi.RectangularROI(left=13, top=11, right=19, bottom=16)
+    roi8 = hs.roi.RectangularROI(left=13, top=6, right=19, bottom=11)
     roi8.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -159,7 +159,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi9 = hs.roi.RectangularROI(left=10, top=3, right=16, bottom=8)
+    roi9 = hs.roi.RectangularROI(left=10, top=1, right=16, bottom=6)
     roi9.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -199,7 +199,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi13 = hs.roi.RectangularROI(left=14, top=13, right=20, bottom=18)
+    roi13 = hs.roi.RectangularROI(left=14, top=8, right=20, bottom=13)
     roi13.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -209,7 +209,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi14 = hs.roi.RectangularROI(left=13, top=10, right=19, bottom=15)
+    roi14 = hs.roi.RectangularROI(left=13, top=4, right=19, bottom=9)
     roi14.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi15 = hs.roi.RectangularROI(left=9, top=2, right=15, bottom=7)
+    roi15 = hs.roi.RectangularROI(left=12, top=1, right=18, bottom=6)
     roi15.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -229,7 +229,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi16 = hs.roi.RectangularROI(left=4, top=1, right=10, bottom=6)
+    roi16 = hs.roi.RectangularROI(left=14, top=1, right=20, bottom=6)
     roi16.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -320,7 +320,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi25 = hs.roi.RectangularROI(left=11, top=14, right=17, bottom=19)
+    roi25 = hs.roi.RectangularROI(left=13, top=14, right=19, bottom=19)
     roi25.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -390,7 +390,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi32 = hs.roi.RectangularROI(left=17, top=14, right=23, bottom=19)
+    roi32 = hs.roi.RectangularROI(left=17, top=10, right=23, bottom=15)
     roi32.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -490,7 +490,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi42 = hs.roi.RectangularROI(left=6, top=29, right=12, bottom=34)
+    roi42 = hs.roi.RectangularROI(left=4, top=27, right=10, bottom=32)
     roi42.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -560,7 +560,7 @@ if __name__ == '__main__':
     vbfs_series_i = vbfs_series_s.inav[i]
     vbfs_series_i.plot(cmap='viridis_r', title=str(i), interpolation='none', axes_ticks='off',
                        scalebar=False, colorbar=False)
-    roi49 = hs.roi.RectangularROI(left=4, top=31, right=10, bottom=36)
+    roi49 = hs.roi.RectangularROI(left=0, top=15, right=6, bottom=20)
     roi49.add_widget(vbfs_series_i)
     plt.show()
     plt.savefig(DIR_ROIS+file_names[i]+'_roi.png')
@@ -681,22 +681,12 @@ if __name__ == '__main__':
     # Parameters for mask to improve centering (processed in other file)
     r,cx,cy = 7.5,122,125
     tilt_series_av = []
-    # s_shifts=None
     t1 = time.time()
     for n, file in zip(range(len(file_names)), file_names):
         print('no.',n, 'file:', file,)
         roi = roi_list[n]
         tilt_data = hs.load(DIR_TILTS+file+'.hspy')
-        # if n == 0:
-        #     s_shifts = tilt_data.get_direct_beam_position(
-        #         method="interpolate", 
-        #         half_square_width=30,
-        #         sigma=1.5, 
-        #         upsample_factor=2, 
-        #         kind="nearest"
-        #         )
-
-        # tilt_data.center_direct_beam(method="center_of_mass", mask=(cx,cy,r),threshold=750, inplace=False)
+        
         tilt_data.center_direct_beam(
                 method="interpolate", 
                 half_square_width=30,
@@ -706,7 +696,6 @@ if __name__ == '__main__':
                 inplace=False,
                 )
 
-        # tilt_data.center_direct_beam(shifts=s_shifts)
         tilt_roi_av = np.average(roi(tilt_data).data,axis=(0,1))
         tilt_series_av.append(tilt_roi_av)
         # Free memory
@@ -716,22 +705,9 @@ if __name__ == '__main__':
     print(f'Computation time {(t2-t1)/60} min')
 
     tilt_series_av_s = pxm.signals.ElectronDiffraction2D(tilt_series_av)
+    tilt_series_av_s.center_direct_beam(method="center_of_mass", mask=(cx,cy,r),threshold=750, inplace=False)
     tilt_series_av_s.plot(cmap='magma_r', norm='log')
-    tilt_series_av_s.save(DIR_HSPY+'LeftFish_interpolate_hsw30_subpixelTrue_sigma1_5_uf2_nearest_inplaceFalse.hspy')
+    tilt_series_av_s.save(DIR_HSPY+'LeftFish2_interpolate_hsw30_subpixelTrue_sigma1_5_uf2_nearest_inplaceFalse.hspy')
     
-    # Save roi data to a dir. to keep track
-    roi_data=[]
-    for roi in roi_list:
-        roi_data.append({
-            'left': roi.left,
-            'top': roi.top,
-            'right': roi.right,
-            'bottom': roi.bottom,
-        })
-    
-    # Save roi to jéson file
-    with open('ROI_UnderFish_json/LeftFish_roi_list_interpolate_s_shifts_hsw30_inplaceFalse_etc.json', 'w') as f:
-        json.dump(roi_data, f, indent=4)
-
     # Debug statement
     print("Done!")
